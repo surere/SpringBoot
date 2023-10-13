@@ -11,6 +11,7 @@
 <br><p>
 
 <table width = "500" cellpadding="0" cellspacing="0" border="1">
+	<!-- 등록 폼에서 post로 전송시 컨트롤러에서 insert 처리를 한다. -->
 	<form action="write" method="post">
 		<tr>
 			<td>작성자</td>

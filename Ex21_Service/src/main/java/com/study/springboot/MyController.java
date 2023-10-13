@@ -19,8 +19,8 @@ public class MyController
 //	@Autowired
 //	ISimpleBbsDao dao;
 	
-	@Autowired
-	ISimpleBbsService bbs;	
+	@Autowired	// 역할!
+	ISimpleBbsService bbs;	// 서비스를 사용
 	
 	@RequestMapping("/")
 	public String root() throws Exception{
